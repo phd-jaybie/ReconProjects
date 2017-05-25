@@ -7,7 +7,6 @@ import android.os.Bundle;
 import com.reconinstruments.ui.list.SimpleListActivity;
 import com.reconinstruments.ui.list.StandardListItem;
 
-
 public class MainActivity extends SimpleListActivity {
 
     static final String CAMERA_APP= "com.reconinstruments.camera";
