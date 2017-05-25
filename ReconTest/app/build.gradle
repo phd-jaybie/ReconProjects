@@ -27,7 +27,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
-    compile 'com.reconinstruments.app:recon-application:X.X.X'
-    compile 'com.reconinstruments.ui:recon-ui:X.X.X'
-    provided 'com.reconinstruments.os:recon-platform:X.X.X'
+    compile 'com.reconinstruments.app:recon-application:4.4.0'
+    compile 'com.reconinstruments.ui:recon-ui:4.4.0'
+    provided 'com.reconinstruments.os:recon-platform:4.4.0'
 }
