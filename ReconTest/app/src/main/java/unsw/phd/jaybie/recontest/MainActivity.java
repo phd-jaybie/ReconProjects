@@ -49,7 +49,6 @@ public class MainActivity extends Activity {
     public boolean onKeyUp(int keyCode, KeyEvent event) {
         if (keyCode==KeyEvent.KEYCODE_DPAD_CENTER) {
             camera.takePicture(null, null, jpegSavedCallback);
-        } else {
             return true;
         }
         return super.onKeyUp(keyCode, event);
