@@ -26,6 +26,10 @@ public class MainActivity extends Activity {
     static final String CAMERA_APP= "com.reconinstruments.camera";
 
     Camera camera;
+
+    CameraPreview preview;
+    FrameLayout modeSwitchView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +46,9 @@ public class MainActivity extends Activity {
             camera.takePicture(null, null, jpegSavedCallback);
         }
 */
-        openCamera();
+        preview = (CameraPreview) findViewById(R.id.preview);
+        modeSwitchView = (FrameLayout) findViewById(R.id.mode_switcher);
+        //openCamera();
     }
 
     @Override
@@ -69,7 +75,7 @@ public class MainActivity extends Activity {
     PictureCallback jpegSavedCallback = new PictureCallback() {
         public void onPictureTaken(byte[] data, Camera camera) {
             ImageStorageUtils.insertJpeg(MainActivity.this,data,System.currentTimeMillis());
-            //preview.setCamera(camera);
+            preview.setCamera(camera);
         }
     };
 
@@ -80,12 +86,12 @@ public class MainActivity extends Activity {
             Toast.makeText(this, "Failed to open camera", Toast.LENGTH_SHORT).show();
         }
         if(camera!=null) { return; }
-            //preview.setCamera(camera);
+            preview.setCamera(camera);
     }
 
     public void closeCamera() {
         if(camera != null) {
-            //camera.stopPreview();
+            camera.stopPreview();
             camera.release();
             camera = null;
         }
