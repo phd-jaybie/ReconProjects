@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.reconinstruments.ui.list.ReconListView
+		android:id="@android:id/list"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+</FrameLayout><!-- From: file:/home/calvinc/projects/jet/mydroid/vendor/reconinstruments/limo_apps/sdk/libraries/reconUI/src/main/res/layout/list_standard_layout.xml --><!-- From: file:/Users/jaybie/AndroidStudioProjects/ReconProjects/ARCameraSample/cameraSample/build/intermediates/exploded-aar/com.reconinstruments.ui/recon-ui/4.3.1/res/layout/list_standard_layout.xml -->
