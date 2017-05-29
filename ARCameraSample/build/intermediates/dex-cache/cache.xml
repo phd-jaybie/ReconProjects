@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jaybie/Dropbox (Personal)/Study/PhD (UNSW)/Resources/reconJet/Recon Dev Kit for Jet (TM)/10 - Camera/CameraSampleApp/cameraSample/build/intermediates/exploded-aar/com.reconinstruments.ui/recon-ui/4.3.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a442b1b1090a8dcd00ae1269c76537415751998b">
+        <dex dex="/Users/jaybie/Dropbox (Personal)/Study/PhD (UNSW)/Resources/reconJet/Recon Dev Kit for Jet (TM)/10 - Camera/CameraSampleApp/cameraSample/build/intermediates/pre-dexed/debug/classes-09d1d48ea6ac268ff3b3b4f2e34243fce3f2ccd0.jar" />
+    </item>
+    <item
+        jar="/Users/jaybie/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/jaybie/Dropbox (Personal)/Study/PhD (UNSW)/Resources/reconJet/Recon Dev Kit for Jet (TM)/10 - Camera/CameraSampleApp/cameraSample/build/intermediates/pre-dexed/debug/support-v4-18.0.0-e9040aa10df0646676bed3c4094c97c066e6468e.jar" />
+    </item>
+
+</items>

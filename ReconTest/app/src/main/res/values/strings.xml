@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Recon Test</string>
+    <string name="landing_text">Click Select to take picture</string>
 </resources>
